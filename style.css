@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.text_center {
+  text-align: center;
+}
+.header_section {
+  background-image: url(images/2017-09-14T122008Z_1938959365_RC152C607C10_RTRMADP_3_MYANMAR-ROHINGYA-BANGLADESH.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  opacity: 0.8;
+}
+.header_container {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 25px;
+  color: rgb(174, 162, 1  i97);
+}
+.header_container * {
+  color: #fff;
+}
+.header_container h1 {
+  color: rgb(26, 17, 21);
+  margin-top: 110px;
+  font-size: 70px;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+}
+.header_container h2 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.header_container p {
+  font-size: 30px;
+  margin-bottom: 93px;
+}
+.donate {
+  text-decoration: none;
+
+  background-color: rgb(255, 89, 89);
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 22px;
+  color: #fff;
+}
+/* amount_section */
+#amount_section {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px aqua;
+}
+.amount_container {
+  width: 60%;
+  margin: 0px auto;
+  padding: 60px 0;
+}
+.amount_container * {
+  text-align: center;
+}
+
+.amount_container h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+.amount_container p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+#active {
+  background-color: rgb(255, 238, 238);
+  color: rgb(187, 56, 56);
+}
+
+.amount_list {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.amount_list li {
+  margin: 10px 10px;
+  width: 135px;
+  height: 94px;
+  background-color: rgb(250, 250, 250);
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  padding-top: 33px;
+  font-size: 26px;
+  font-weight: 400;
+}
+#custom_amount {
+  display: block;
+  border: none;
+  margin: 60px 0;
+  border-bottom: 2px solid rgba(114, 32, 32, 0.5);
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+input[type="number"]::placeholder {
+  color: red;
+  opacity: 1;
+  word-spacing: 5px;
+  font-size: 17px; /* Firefox */
+}
+#custom_amount:focus {
+  outline: none;
+}
+.donate_link {
+  margin: 30px 0;
+}
+
+/* ================planing section ============*/
+
+#planing_section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
+  justify-content: center;
+}
+#planing_section {
+}
+
+#planing_title {
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.card {
+  margin: 10px 10px;
+  background-color: antiquewhite;
+  height: 400px;
+  width: 450px;
+  padding: 50px 0;
+}
+.card i {
+  margin-left: 20px;
+  font-size: 60px;
+  color: rgb(104, 86, 63);
+  box-shadow: 5px 5px 5px antiquewhite;
+}
+.card_title {
+  margin-left: 20px;
+  font-weight: 800;
+  margin-top: 18px;
+  font-size: 32px;
+}
+.card_text {
+  line-height: 27px;
+  font-size: 19px;
+  margin-left: 20px;
+  margin-top: 33px;
+}
+/* ======education======== */
+#education_section {
+  width: 80%;
+  margin: 0 auto;
+}
+.education_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.education_content {
+  width: 48%;
+}
+.education_content h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+.education_content p {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 43px 10px;
+}
+#ed_donate {
+  margin: 0 200px;
+}
+.education_img {
+  width: 48%;
+}
+.education_img img {
+  width: 673px;
+  height: 644px;
+  border-radius: 21px;
+  outline: 2px solid royalblue;
+}
+/* ======service section======== */
+.servive_section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 31rem;
+  margin: 30px auto;
+}
+.servive_text {
+  width: 47%;
+}
+.servive_image {
+  width: 47%;
+  height: auto;
+}
+.servive_image img {
+  width: 100%;
+  height: 31rem;
+  border-radius: 5px;
+  outline: 2px solid red;
+}
+.servive_text h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: px;
+  font-family: "Inter", sans-serif;
+}
+.servive_text h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: chocolate;
+}
+.servive_text p {
+  margin: 10px 0;
+}
+.servive_text a {
+  display: inline-block;
+  margin: 42px 168px;
+}
+
+/* =====update_section==== */
+
+.update_div {
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.update_div p {
+  margin: 10px;
+  font-size: 20px;
+}
+.nd_div {
+  background-color: rgb(255, 244, 214);
+  width: 60%;
+  height: 200px;
+  margin: 10px auto;
+  text-align: center;
+  display: table;
+}
+.child {
+  display: table-cell;
+  vertical-align: middle;
+}
+.sub_child {
+  background-color: brown;
+  display: inline-block;
+  outline: 2px solid black;
+  border-radius: 5px;
+}
+input[type="email"]::placeholder {
+  font-size: 20px;
+}
+.sub_child input {
+  width: 282px;
+  height: 49px;
+}
+#sub_button {
+  width: 100px;
+  padding: 16px 25px;
+  text-decoration: none;
+  color: #fff;
+
+  background-color: rgb(26, 75, 179);
+}
+
+/* ===footer=== */
+footer {
+  width: 100%;
+  height: 10rem;
+  color: #fff;
+  background-color: black;
+}
+footer h1 {
+  padding-top: 11px;
+  font-family: "Lobster", cursive;
+
+  text-align: center;
+}
+footer h3 {
+  text-align: center;
+  margin-top: 50px;
+  
+}
+footer p{
+    color: #fff;
+    float: right;
+    margin-top: 18px;
+    
+}
