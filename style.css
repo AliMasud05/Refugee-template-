@@ -197,7 +197,7 @@ font-size: 20px;
   margin: 43px 10px;
 }
 #ed_donate {
-  margin: 0 200px;
+  padding: 15px 25px;
 }
 .education_img {
   width: 48%;
@@ -334,7 +334,7 @@ footer h3 {
 }
 footer p{
     color: #fff;
-    float: right;
+    text-align: center;
     margin-top: 18px;
     
 }
