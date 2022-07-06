@@ -4,9 +4,11 @@
   box-sizing: border-box;
   z-index: 1;
 }
+
 .text_center {
   text-align: center;
 }
+
 .header_section {
   background-image: url(images/2017-09-14T122008Z_1938959365_RC152C607C10_RTRMADP_3_MYANMAR-ROHINGYA-BANGLADESH.jpg);
   background-repeat: no-repeat;
@@ -15,16 +17,19 @@
   height: 900px;
   opacity: 0.9;
 }
+
 .header_container {
   width: 50%;
   text-align: center;
   margin: 0 auto;
   padding-top: 25px;
-  color: rgb(174, 162, 1  i97);
+  color: rgb(174, 162, 1 i97);
 }
+
 .header_container * {
   color: #fff;
 }
+
 .header_container h1 {
   color: rgb(26, 17, 21);
   margin-top: 110px;
@@ -34,16 +39,19 @@
   font-weight: 800;
   font-family: "Inter", sans-serif;
 }
+
 .header_container h2 {
   font-size: 50px;
   letter-spacing: 2px;
   font-family: "Inter", sans-serif;
   color: rgb(255, 255, 255);
 }
+
 .header_container p {
   font-size: 30px;
   margin-bottom: 93px;
 }
+
 .donate {
   text-decoration: none;
 
@@ -53,16 +61,19 @@
   font-size: 22px;
   color: #fff;
 }
+
 /* amount_section */
 #amount_section {
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 5px 10px aqua;
 }
+
 .amount_container {
   width: 60%;
   margin: 0px auto;
   padding: 60px 0;
 }
+
 .amount_container * {
   text-align: center;
 }
@@ -73,10 +84,12 @@
   margin-bottom: 20px;
   font-family: "Inter", sans-serif;
 }
+
 .amount_container p {
   font-size: 20px;
   margin: 10px 0;
 }
+
 #active {
   background-color: rgb(255, 238, 238);
   color: rgb(187, 56, 56);
@@ -87,6 +100,7 @@
   justify-content: center;
   margin: 20px 0;
 }
+
 .amount_list li {
   margin: 10px 10px;
   width: 135px;
@@ -98,6 +112,7 @@
   font-size: 26px;
   font-weight: 400;
 }
+
 #custom_amount {
   display: block;
   border: none;
@@ -106,15 +121,19 @@
   width: 100%;
   background-color: rgb(255, 255, 255);
 }
+
 input[type="number"]::placeholder {
   color: red;
   opacity: 1;
   word-spacing: 5px;
-  font-size: 17px; /* Firefox */
+  font-size: 17px;
+  /* Firefox */
 }
+
 #custom_amount:focus {
   outline: none;
 }
+
 .donate_link {
   margin: 30px 0;
 }
@@ -128,8 +147,7 @@ input[type="number"]::placeholder {
   justify-content: center;
 }
 
-#planing_section {
-}
+#planing_section {}
 
 #planing_title {
   font-size: 45px;
@@ -139,14 +157,16 @@ input[type="number"]::placeholder {
   margin-bottom: 20px;
 }
 
-.planing_text{
-font-size: 20px;
+.planing_text {
+  font-size: 20px;
 }
+
 .card_container {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
+
 .card {
   margin: 10px 10px;
   background-color: antiquewhite;
@@ -154,60 +174,72 @@ font-size: 20px;
   width: 450px;
   padding: 50px 0;
 }
+
 .card i {
   margin-left: 20px;
   font-size: 60px;
   color: rgb(104, 86, 63);
   box-shadow: 5px 5px 5px antiquewhite;
 }
+
 .card_title {
   margin-left: 20px;
   font-weight: 800;
   margin-top: 18px;
   font-size: 32px;
 }
+
 .card_text {
   line-height: 27px;
   font-size: 19px;
   margin-left: 20px;
   margin-top: 33px;
 }
+
 /* ======education======== */
 #education_section {
   width: 80%;
   margin: 0 auto;
 }
+
 .education_container {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
+
 .education_content {
   width: 48%;
 }
+
 .education_content h1 {
   font-size: 60px;
   font-weight: bold;
   margin-bottom: 20px;
   font-family: "Inter", sans-serif;
 }
+
 .education_content p {
   font-size: 20px;
   line-height: 25px;
   margin: 43px 10px;
 }
+
 #ed_donate {
   padding: 15px 25px;
 }
+
 .education_img {
   width: 48%;
 }
+
 .education_img img {
   width: 673px;
   height: 644px;
   border-radius: 21px;
   outline: 2px solid royalblue;
 }
+
 /* ======service section======== */
 .servive_section {
   display: flex;
@@ -216,59 +248,72 @@ font-size: 20px;
   height: 31rem;
   margin: 30px auto;
 }
+
 .servive_text {
   width: 47%;
 }
+
 .servive_image {
   width: 47%;
   height: auto;
 }
+
 .servive_image img {
   width: 100%;
   height: 31rem;
   border-radius: 5px;
   outline: 2px solid red;
 }
+
 .servive_text h1 {
   font-size: 60px;
   font-weight: bold;
   margin-bottom: px;
   font-family: "Inter", sans-serif;
 }
+
 .servive_text h3 {
   font-size: 40px;
   font-weight: bold;
   color: chocolate;
 }
+
 .servive_text p {
   margin: 10px 0;
 }
+
 .servive_text a {
   display: inline-block;
   margin: 42px 168px;
 }
 
 /* ===========gallery========= */
-#image_section{
+#image_section {
   text-align: center;
 }
-#image_section h1{
-  font-size:45px;
-  background-color: rgb(	169,169,169);
+
+#image_section h1 {
+  font-size: 45px;
+  padding: 10px 0;
+  background-color: rgba(238, 227, 227, 0.4);
 }
-#image_section h2{
+
+#image_section h2 {
   font-weight: 800;
   color: darkgreen;
 }
-.img_container{
+
+.img_container {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   margin: 10px 0;
 }
-.img_container img{
+
+.img_container img {
   width: 24%;
   border-radius: 5px;
 }
+
 /* =====update_section==== */
 
 .update_div {
@@ -276,10 +321,12 @@ font-size: 20px;
   text-align: center;
   margin-top: 10px;
 }
+
 .update_div p {
   margin: 10px;
   font-size: 20px;
 }
+
 .nd_div {
   background-color: rgb(255, 244, 214);
   width: 60%;
@@ -288,23 +335,28 @@ font-size: 20px;
   text-align: center;
   display: table;
 }
+
 .child {
   display: table-cell;
   vertical-align: middle;
 }
+
 .sub_child {
   background-color: brown;
   display: inline-block;
   outline: 2px solid black;
   border-radius: 5px;
 }
+
 input[type="email"]::placeholder {
   font-size: 20px;
 }
+
 .sub_child input {
   width: 282px;
   height: 49px;
 }
+
 #sub_button {
   width: 100px;
   padding: 16px 25px;
@@ -321,20 +373,23 @@ footer {
   color: #fff;
   background-color: black;
 }
+
 footer h1 {
   padding-top: 11px;
   font-family: "Lobster", cursive;
 
   text-align: center;
 }
+
 footer h3 {
   text-align: center;
   margin-top: 50px;
-  
+
 }
-footer p{
-    color: #fff;
-    text-align: center;
-    margin-top: 18px;
-    
+
+footer p {
+  color: #fff;
+  text-align: center;
+  margin-top: 18px;
+
 }
