@@ -13,7 +13,7 @@
   background-size: cover;
   background-position: center;
   height: 900px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .header_container {
   width: 50%;
@@ -127,6 +127,7 @@ input[type="number"]::placeholder {
   padding: 60px 0;
   justify-content: center;
 }
+
 #planing_section {
 }
 
@@ -138,6 +139,9 @@ input[type="number"]::placeholder {
   margin-bottom: 20px;
 }
 
+.planing_text{
+font-size: 20px;
+}
 .card_container {
   display: flex;
   justify-content: space-between;
@@ -244,6 +248,27 @@ input[type="number"]::placeholder {
   margin: 42px 168px;
 }
 
+/* ===========gallery========= */
+#image_section{
+  text-align: center;
+}
+#image_section h1{
+  font-size:45px;
+  background-color: rgb(	169,169,169);
+}
+#image_section h2{
+  font-weight: 800;
+  color: darkgreen;
+}
+.img_container{
+  display: flex;
+  justify-content:space-around;
+  margin: 10px 0;
+}
+.img_container img{
+  width: 24%;
+  border-radius: 5px;
+}
 /* =====update_section==== */
 
 .update_div {
